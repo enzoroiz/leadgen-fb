@@ -9,4 +9,4 @@ if ($verify_token === 'jcleadgen#2017') {
 
 $input = json_decode(file_get_contents('php://input'), true);
 error_log(print_r($input, true));
-error_log("testing");
+error_log("challenge " . $challenge);
